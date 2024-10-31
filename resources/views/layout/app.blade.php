@@ -42,6 +42,7 @@
     
 
     @include('admin.admin-components.themesetting')
+    @include('admin.admin-components.footer')
 
     {{-- all script --}}
     <!-- Vendor js -->
@@ -65,7 +66,7 @@
     <script src="{{asset('assets/js/app.min.js')}}"></script>
     <script>
         $(document).ready(function() {
-            @if (session('success'))
+            @if (session('success') )
                 toastr.success('{{ session('success') }}');
             @elseif (session('error'))
                 toastr.error('{{ session('error') }}');

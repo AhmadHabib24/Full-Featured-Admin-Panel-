@@ -2,22 +2,22 @@
  <div class="leftside-menu">
 
     <!-- Brand Logo Light -->
-    <a href="index.html" class="logo logo-light">
+    <a href="{{route('admin.index')}}" class="logo logo-light">
         <span class="logo-lg">
-            <img src="assets/images/logo.png" alt="logo">
+            <img src="{{asset('assets/images/logo.png')}}" alt="logo">
         </span>
         <span class="logo-sm">
-            <img src="assets/images/logo-sm.png" alt="small logo">
+            <img src="{{asset('assets/images/logo-sm.png')}}" alt="small logo">
         </span>
     </a>
 
     <!-- Brand Logo Dark -->
-    <a href="index.html" class="logo logo-dark">
+    <a href="{{route('admin.index')}}" class="logo logo-dark">
         <span class="logo-lg">
-            <img src="assets/images/logo-dark.png" alt="dark logo">
+            <img src="{{asset('assets/images/logo-dark.png')}}" alt="dark logo">
         </span>
         <span class="logo-sm">
-            <img src="assets/images/logo-dark-sm.png" alt="small logo">
+            <img src="{{asset('assets/images/logo-dark-sm.png')}}" alt="small logo">
         </span>
     </a>
 
@@ -37,7 +37,7 @@
         <div class="leftbar-user">
             <a href="pages-profile.html">
                 <img src="assets/images/users/avatar-1.jpg" alt="user-image" height="42" class="rounded-circle shadow-sm">
-                <span class="leftbar-user-name mt-2">Dominic Keller</span>
+                <span class="leftbar-user-name mt-2">Admin</span>
             </a>
         </div>
 
@@ -55,16 +55,16 @@
                 <div class="collapse" id="sidebarDashboards">
                     <ul class="side-nav-second-level">
                         <li>
-                            <a href="dashboard-analytics.html">Analytics</a>
+                            <a href="{{route('dashboard.analytics')}}">Analytics</a>
                         </li>
                         <li>
-                            <a href="index.html">Ecommerce</a>
+                            <a href="{{route('admin.index')}}">Ecommerce</a>
                         </li>
                         <li>
-                            <a href="dashboard-projects.html">Projects</a>
+                            <a href="{{route('dashboard.project')}}">Projects</a>
                         </li>
                         <li>
-                            <a href="dashboard-crm.html">CRM</a>
+                            <a href="{{route('dashboard.crm')}}">CRM</a>
                         </li>
                         <li>
                             <a href="dashboard-wallet.html">E-Wallet</a>
