@@ -67,7 +67,7 @@
                             <a href="{{route('dashboard.crm')}}">CRM</a>
                         </li>
                         <li>
-                            <a href="dashboard-wallet.html">E-Wallet</a>
+                            <a href="{{route('dashboard.wallet')}}">E-Wallet</a>
                         </li>
                     </ul>
                 </div>
@@ -76,7 +76,7 @@
             <li class="side-nav-title">Apps</li>
 
             <li class="side-nav-item">
-                <a href="apps-calendar.html" class="side-nav-link">
+                <a href="{{route('app.calendar')}}" class="side-nav-link">
                     <i class="uil-calender"></i>
                     <span> Calendar </span>
                 </a>

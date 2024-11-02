@@ -1,5 +1,5 @@
 @extends('layout.app')
-@section('title', 'CRM')
+@section('title', 'CRM Dashboard')
 @section('body')
     <div class="wrapper">
         <!-- ============================================================== -->

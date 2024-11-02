@@ -1,5 +1,5 @@
 @extends('layout.app')
-@section('title', 'Projects')
+@section('title', 'Project Dashboard')
 @section('body')
     <div class="wrapper">
         <!-- ============================================================== -->

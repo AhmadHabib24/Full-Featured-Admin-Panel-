@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\CalendarController;
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\DashboardController;
 use Illuminate\Support\Facades\Route;
@@ -24,3 +25,5 @@ Route::get('/dashboard-index',[AdminController::class,'index'])->name('admin.ind
 Route::get('dashboard-analytics',[DashboardController::class,'analyticsview'])->name('dashboard.analytics');
 Route::get('dashboard-project',[DashboardController::class,'project_index'])->name('dashboard.project');
 Route::get('dashboard-crm',[DashboardController::class,'crm_index'])->name('dashboard.crm');
+Route::get('dashboard-wallet',[DashboardController::class,'wallet_index'])->name('dashboard.wallet');
+Route::get('calendar',[CalendarController::class,'index'])->name('app.calendar');
